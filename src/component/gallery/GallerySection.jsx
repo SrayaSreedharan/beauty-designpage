@@ -9,7 +9,7 @@ export default function GallerySection() {
       </div>
       <div className="gallery-item large">
         <img src="/images/hh.jpeg" alt="Lashes" />
-        <h2 className="gallery-title">SERENYA LASH</h2>
+        <h2 className="gallery-title">SRAYA S LASH</h2>
       </div>
       <div className="gallery-item small">
         <img src="/images/hh.jpeg" alt="Eyes" />
