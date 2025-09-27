@@ -4,7 +4,7 @@ import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
-    <div className="landing">
+    <div className="landing" style={{ backgroundImage: "url('/images/hh.jpeg')" }}>
       {/* Navbar */}
       <header className="navbar">
         <button className="menu-btn">☰</button>

@@ -1,0 +1,36 @@
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding: 60px 40px;
+  background: #0d0b0b; 
+  align-items: center;
+  justify-items: center;
+}
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+.gallery-item.large {
+  text-align: center;
+}
+.gallery-title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 22px;
+  color: white;
+  font-family: "Georgia", serif;
+  letter-spacing: 2px;
+}
