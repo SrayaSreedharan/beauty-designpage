@@ -8,16 +8,9 @@ import SignatureServices from "../component/signature/SignatureServices";
 const DesignPage = () => {
   return (
     <div>
-      {/* Landing / Hero */}
       <LandingPage />
-
-      {/* Gallery Section */}
       <GallerySection />
-
-      {/* Grid Section */}
       <Grid/>
-
-      {/* Signature Services Section */}
       <SignatureServices/>
     </div>
   );
