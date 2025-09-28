@@ -1,19 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import LandingPage from './component/landing/LandingPage';
-import GallerySection from './component/gallery/GallerySection';
-import Grid from './component/grid/Grid';
+import DesignPage from './pages/Design';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    {/* <LandingPage/> */}
-    {/* <GallerySection/> */}
-    <Grid/>
+    <DesignPage/>
   </React.StrictMode>
 );
 

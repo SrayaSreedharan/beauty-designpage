@@ -3,17 +3,19 @@ import "./GallerySection.css";
 
 export default function GallerySection() {
   return (
+     <div className='containers'>
     <section className="gallery">
       <div className="gallery-item small">
-        <img src="/images/hh.jpeg" alt="Nails" />
+        <img src="/images/nail.jpg" alt="Nails" />
       </div>
       <div className="gallery-item large">
-        <img src="/images/hh.jpeg" alt="Lashes" />
+        <img src="/images/lash.jpg" alt="Lashes" />
         <h2 className="gallery-title">SRAYA S LASH</h2>
       </div>
       <div className="gallery-item small">
         <img src="/images/hh.jpeg" alt="Eyes" />
       </div>
     </section>
+    </div>
   );
 }

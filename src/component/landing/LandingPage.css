@@ -1,8 +1,6 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.containers{
+    max-width: 1500px;
+    margin: 0 auto; 
 }
 .landing {
   height: 100vh;
@@ -23,30 +21,10 @@
   top: 0;
   left: 0;
 }
-.menu-btn {
-  font-size: 24px;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
 .logo {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 2px;
-}
-.appointment-btn {
-  font-size: 14px;
-  color: white;
-  text-decoration: none;
-  border: 1px solid white;
-  padding: 6px 14px;
-  border-radius: 20px;
-  transition: 0.3s;
-}
-.appointment-btn:hover {
-  background: white;
-  color: black;
 }
 .hero {
   height: 100vh;
